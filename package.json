@@ -1,0 +1,26 @@
+{
+  "name": "typescript-pixi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ogwtkhr <color_me_pop@live.jp>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn serve",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "serve": "webpack serve --open"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
