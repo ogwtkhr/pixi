@@ -1,5 +1,6 @@
 const path = require('path');
 const { HotModuleReplacementPlugin } = require('webpack');
+const sourcePath = path.resolve(__dirname, 'src');
 const outputPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
@@ -16,6 +17,9 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.js'],
+    alias: {
+      '@': sourcePath,
+    },
   },
   devServer: {
     contentBase: outputPath,

@@ -4,6 +4,10 @@
     "strict": true,
     "target": "es5",
     "module": "es2015",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   }
 }
